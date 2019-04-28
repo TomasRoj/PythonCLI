@@ -3,7 +3,7 @@ from PIL import Image, ImageFilter, ImageFont, ImageDraw
 from pyfiglet import Figlet
 
 f = Figlet(font='slant')
-print(f.renderText('PythonCLI v1.0'))
+click.secho(f.renderText('PythonCLI v1.0'), fg="red", bold=True)
 
 # List of commands
 @click.command()

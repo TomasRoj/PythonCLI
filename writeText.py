@@ -8,15 +8,9 @@ from pyfiglet import Figlet
 
 def write(path, writeText):
 
-    img = Image.open(path)
-    img.filter(ImageFont.load("arial.pil"))
-
-    img.text((10, 25), writeText, font=font)
-    img.show()
-
-    click.secho("Image processed succesfully!", fg="green", bold=True)
+    #todo
 
 if __name__ == "__main__":
     f = Figlet(font='slant')
-    print(f.renderText('PythonCLI v1.0'))
+    click.secho(f.renderText('PythonCLI v1.0'), fg="red", bold=True)
     write()

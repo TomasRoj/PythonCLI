@@ -10,11 +10,11 @@ from pyfiglet import Figlet
 
 def rotate(path, rotate):
     img = Image.open(path)
-    img.rotate(90).show()
+    img.rotate(rotate).show()
 
     click.secho("Image processed succesfully!", fg="green", bold=True)
 
 if __name__ == "__main__":
     f = Figlet(font='slant')
-    print(f.renderText('PythonCLI v1.0'))
+    click.secho(f.renderText('PythonCLI v1.0'), fg="red", bold=True)
     rotate()
