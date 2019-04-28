@@ -1,18 +1,30 @@
 # PythonCLI
 This PythonCLI makes easir work with images. Blur, rotate, put text and many more! No more learning hard programs like Photoshop!
 
-## How to set up
+## How to set up & run
 
 1. Clone this repo.
 2. Move to this directory.
-3. Type: python main.py -p "pathToImage" + options(read more info below)
+3. Type: python fileName.py -p "pathToImage" + options(read more info below)
+
+## Files
+
+This project is in multiple .py files which contains
+different Image methods. Here is the list of currently availibe and tested files:
+
+1. rotate.py - Rotates an image.
+2. blur.py - Blurs an image.
+3. sharper.py - Makes image little bit sharper.
+
+There is more files (ex. writeText.py) but theese are not working yet (that can be good contribution! 🎉)
 
 ## Options
 
-`-b` - Blurs image
-`-ra` - Blurs image for some radius. Must be used with -b flag.
+Every otion is availibe only in equal file (ex. -b ➡ blur.py)
 
-Text flag is included but not tested yet.
+`-b` - Blurs image. Specify with number of blury level (int)
+`-r` - Rotates an image. Specify with degree (int)
+`-wT` - Writes text to image. Specify with text (string) - ! not working yet !
 
 ## Contribution
 
