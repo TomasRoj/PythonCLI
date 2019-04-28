@@ -23,4 +23,4 @@ Contributions are welcome! Start by forking this repo, making changes and creati
 Created by @TomasRoj on 27. April on rainy saturday on living room sofa.
 
 Tomáš Roj, rojtomas@email.cz
-This and other my projects are avilibe under MIT license. See LICENSE file for more info.
+This and other my projects are avalibe under MIT license. See LICENSE file for more info.
