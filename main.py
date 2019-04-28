@@ -1,7 +1,6 @@
 import click
 from PIL import Image, ImageFilter, ImageFont, ImageDraw
 from pyfiglet import Figlet
-import uuid
 import os, sys
 
 f = Figlet(font='slant')
