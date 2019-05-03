@@ -3,7 +3,7 @@ from PIL import Image, ImageOps
 from pyfiglet import Figlet
 
 f = Figlet(font='slant')
-click.secho(f.renderText('PythonCLI v1.0'), fg="red", bold=True)
+click.secho(f.renderText('ImageResize v1.0'), fg="red", bold=True)
 
 @click.command()
 @click.option("-p", "--path", type=str, help="Sets path of destination image.")

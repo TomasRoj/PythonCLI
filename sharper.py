@@ -17,5 +17,5 @@ def sharper(path, sharper):
 
 if __name__ == "__main__":
     f = Figlet(font='slant')
-    click.secho(f.renderText('PythonCLI v1.0'), fg="red", bold=True)
+    click.secho(f.renderText('ImageRemake v1.0'), fg="red", bold=True)
     sharper()
