@@ -1,4 +1,4 @@
-# PythonCLI
+# ImageRemakeCLI
 This PythonCLI makes easir work with images. Blur, rotate, put text and many more! No more learning hard programs like Photoshop!
 
 ## How to set up & run
