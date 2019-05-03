@@ -7,10 +7,13 @@ from PIL import Image, ImageFilter, ImageFont, ImageDraw, ImageEnhance
 @click.option("-s", "--sharper", type=bool, default=False, help="Sharper an image for some level")
 
 def sharper(path, sharper):
-    img = Image.open(path)
-    img.filter(ImageFilter.SHARPEN()).show()
+    try:
+      img = Image.open(path)
+      img.filter(ImageFilter.SHARPEN()).show()
 
-    click.secho("Image processed sucesfully!", fg="green", bold=True)
+      click.secho("Image processed sucesfully!", fg="green", bold=True)
+    except Exception as e:
+        print(e)
 
 if __name__ == "__main__":
     f = Figlet(font='slant')

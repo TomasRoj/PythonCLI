@@ -19,8 +19,8 @@ def process(path, blur):
         blurred = original.filter(ImageFilter.GaussianBlur(blur)).show()
 
         click.secho("All images processed!", fg="green", bold=True)
-    except:
-        print("Unable to load image")
+    except Exception as e:
+       print(e)
 
 if __name__ == "__main__":
     process()

@@ -15,6 +15,7 @@ different Image methods. Here is the list of currently availibe and tested files
 1. rotate.py - Rotates an image.
 2. blur.py - Blurs an image.
 3. sharper.py - Makes image little bit sharper.
+4. resize.py - Resizes image to some height and width.
 
 There is more files (ex. writeText.py) but theese are not working yet (that can be good contribution! 🎉)
 
@@ -25,6 +26,10 @@ Every otion is availibe only in equal file (ex. -b ➡ blur.py)
 `-b` - Blurs image. Specify with number of blury level (int)
 `-r` - Rotates an image. Specify with degree (int)
 `-wT` - Writes text to image. Specify with text (string) - ! not working yet !
+
+`-s` Makes image sharper (bool).
+
+`-height`, `-width` - include theese two flags if you want to resize an image (int).
 
 ## Contribution
 
