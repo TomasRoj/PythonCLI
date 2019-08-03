@@ -29,5 +29,6 @@ Contributions are welcome! Start by forking this repo, making changes and creati
 Created by @TomasRoj on 27. April on rainy Saturday on living room sofa.
 
 Tomáš Roj, rojtomas@email.cz
+
 [Alec Trievel](https://github.com/atrievel)
 This and other my projects are available under MIT license. See LICENSE file for more info.
