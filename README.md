@@ -10,15 +10,7 @@ This PythonCLI makes easier to work with images. Blur, rotate, write text, and m
 
 ## Files
 
-This project is contained in multiple .py files which use
-different Image methods. Here is the list of currently available and tested files:
-
-1. `rotate.py` - Rotates an image.
-2. `blur.py` - Blurs an image.
-3. `sharper.py` - Makes image little bit sharper.
-4. `resize.py` - Resizes image to some height and width.
-
-There are more files, (ex. writeText.py) but these are not working yet (that can be good contribution! 🎉)
+Use file ImageRemakeCLI.py with parsing arguments to it.
 
 ## Options
 
@@ -37,8 +29,5 @@ Contributions are welcome! Start by forking this repo, making changes and creati
 Created by @TomasRoj on 27. April on rainy Saturday on living room sofa.
 
 Tomáš Roj, rojtomas@email.cz
+[Alec Trievel](https://github.com/atrievel)
 This and other my projects are available under MIT license. See LICENSE file for more info.
-
-### Contributors
-
-* [Alec Trievel](https://github.com/atrievel)
